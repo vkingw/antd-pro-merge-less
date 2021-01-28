@@ -244,8 +244,8 @@ const renderLess = async (
         javascriptEnabled: true,
         filename: path.resolve(proLess),
       })
-      .then(our=>{
-        let dataArray = our.css.split('\n'); // convert file data in an array
+      .then(out=>{
+        let dataArray = out.css.split('\n'); // convert file data in an array
         const searchKeyword = /url\(.*assets/;
         for (let index=0; index<dataArray.length; index++) {
           if (searchKeyword.test(dataArray[index])) {
@@ -255,7 +255,7 @@ const renderLess = async (
         return dataArray.join('\n');
       })
       // 如果需要压缩，再打开压缩功能默认打开
-      .then(out => (min ? uglifycss.processString(out.css) : out.css))
+      .then(out => (min ? uglifycss.processString(out) : out))
       .catch(e => {
         console.log(e);
       })
