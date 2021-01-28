@@ -14,7 +14,10 @@
     "merge",
     "less"
   ],
-  "author": "vkingw",
+  "authors": {
+    "name": "vkingw",
+    "email": "alfa.king+git@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vkingw/antd-pro-merge-less-ng/issues"
