@@ -1,4 +1,4 @@
-## antd-pro-merge-less
+## antd-pro-merge-less-ng
 
 使用方式：
 
@@ -35,3 +35,4 @@ genCss(
   },
 );
 ```
+生成的css文件会注释掉 ***url\(.*assets*** 相关内容，解决图片加载问题

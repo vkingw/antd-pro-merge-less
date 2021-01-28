@@ -1,6 +1,6 @@
 {
-  "name": "antd-pro-merge-less",
-  "version": "3.0.11",
+  "name": "antd-pro-merge-less-ng",
+  "version": "3.0.12",
   "description": "A webpack plugin for ant design pro less",
   "main": "index.js",
   "scripts": {
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenshuai2144/antd-pro-merge-less.git"
+    "url": "git+https://github.com/vkingw/antd-pro-merge-less-ng.git"
   },
   "keywords": [
     "merge",
     "less"
   ],
-  "author": "chenshuai2144",
+  "author": "vkingw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chenshuai2144/antd-pro-merge-less/issues"
+    "url": "https://github.com/vkingw/antd-pro-merge-less-ng/issues"
   },
-  "homepage": "https://github.com/chenshuai2144/antd-pro-merge-less#readme",
+  "homepage": "https://github.com/vkingw/antd-pro-merge-less-ng#readme",
   "dependencies": {
     "@ant-design/dark-theme": "^2.0.2",
     "css-selector-tokenizer": "^0.7.1",
